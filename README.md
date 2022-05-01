@@ -1,5 +1,7 @@
 # Queue You JS
 
+[![Build Status](https://app.travis-ci.com/doohinkus/queue-js.svg?branch=master)](https://app.travis-ci.com/doohinkus/queue-js)
+
 ## What is Queue JS?
 
 This library has a Queue with the following methods: enqueue and dequeue. Enqueue adds item(s) to end of the Queue. Dequeue removes and returns the first item from the beginning of the queue.
