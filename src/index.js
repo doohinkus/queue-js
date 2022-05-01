@@ -13,7 +13,10 @@ export class Queue {
     return this.items.slice(0, end);
   }
   dequeue() {
-    return this.items.shift();
+    if (this.items.length > 0) {
+      return this.items.shift();
+    }
+    return this.items;
   }
   getItems() {
     return this.items;
