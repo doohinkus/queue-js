@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/doohinkus/queue-js.git"
   },
-  "main": "./src/index.js",
+  "main": "./dist/bundle.js",
   "scripts": {
     "build": "rollup -c",
     "test": "npx jest --watch",
