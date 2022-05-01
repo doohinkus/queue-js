@@ -20,6 +20,10 @@ Import the package into your project.
 
 ## Use the Queue
 
+```
+import { Queue } from 'queue-you-js';
+```
+
 ### To make a new, empty queue:
 
 ```
