@@ -3,5 +3,7 @@ node_js:
   - 17
 before_script:
   - npm i
+  - cd ./src
+
 script:
-  - npm run test
+  - npm run test:cov
