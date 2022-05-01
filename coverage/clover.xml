@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1651432728672" clover="3.2.0">
-  <project timestamp="1651432728672" name="All files">
+<coverage generated="1651432999561" clover="3.2.0">
+  <project timestamp="1651432999561" name="All files">
     <metrics statements="11" coveredstatements="11" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4" elements="20" coveredelements="20" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
     <file name="index.js" path="/Users/valenlongfeather/Documents/queue-js/src/index.js">
       <metrics statements="11" coveredstatements="11" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4"/>
