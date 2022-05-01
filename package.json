@@ -12,7 +12,8 @@
   "main": "./src/index.js",
   "scripts": {
     "build": "rollup -c",
-    "test": "npx jest --watch"
+    "test": "npx jest --watch",
+    "test:cov": "npx jest --coverage"
   },
   "keywords": [
     "JS",
