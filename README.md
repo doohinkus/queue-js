@@ -1,4 +1,4 @@
-# Queue JS
+# Queue You JS
 
 ## What is Queue JS?
 
@@ -13,7 +13,7 @@ Many algorithms use FIFO queues. Although javascript has build in methods for FI
 Import the package from npm
 
 ```
-npm install <packge>
+npm install queue-you-js
 ```
 
 Import the package into your project.
