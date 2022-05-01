@@ -6,7 +6,7 @@ This library has a Queue with the following methods: enqueue and dequeue. Enqueu
 
 ## Why?
 
-Many algorithms use FIFO queues. Although javascript has build in methods for FIFO, the terms seem somewhat cryptic to me. Whenever I needed to add a queue, I found myself seraching MDN for the correct array methods. As a result, I decided to write a very simple library / adapter to make working with queues a little easier. Now when I want to use a queue, I can simple install this package.
+Many algorithms use FIFO queues. Although javascript has build in methods for FIFO, the terms seem somewhat cryptic to me. Whenever I needed to add a queue, I found myself searching MDN for the correct array methods. As a result, I decided to write a very simple library / adapter to make working with queues a little easier. Now when I want to use a queue, I can simple install this package.
 
 ## How to install
 
