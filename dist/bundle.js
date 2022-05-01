@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});exports.Queue=class{constructor(e=[]){this._array=e}enqueue(e){let t=0;return e instanceof Array?(t=e.length,this._array.unshift(...e)):this._array.unshift(e),this._array.slice(0,t)}dequeue(){return this._array.shift()}getItems(){return this.items}};
