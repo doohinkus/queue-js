@@ -9,5 +9,12 @@ export default {
     file: "./dist/bundle.js",
     format: "cjs",
   },
-  plugins: [resolve(), commonjs(), terser()],
+  plugins: [
+    resolve(),
+    commonjs(),
+    terser(),
+    babel({
+      exclude: "node_modules/**",
+    }),
+  ],
 };
