@@ -22,16 +22,14 @@ Import the package into your project.
 
 ## Use the Queue
 
-### ES5
+```
+var {Queue} = require('queue-you-js');
+```
+
+OR
 
 ```
 import { Queue } from 'queue-you-js';
-```
-
-### Legacy / pre ES5:
-
-```
-var {Queue} = require('queue-you-js');
 ```
 
 ### To make a new, empty queue:
