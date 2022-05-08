@@ -22,8 +22,16 @@ Import the package into your project.
 
 ## Use the Queue
 
+### ES5
+
 ```
 import { Queue } from 'queue-you-js';
+```
+
+### Legacy / pre ES5:
+
+```
+var {Queue} = require('queue-you-js');
 ```
 
 ### To make a new, empty queue:
@@ -35,7 +43,7 @@ const queue = new Queue();
 ### To create a new queue with multiple items:
 
 ```
-const queue = new Queue(["item", "item", "more items]);
+const queue = new Queue(["item", "item", "more items"]);
 ```
 
 ### Dequeue item:
