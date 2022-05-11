@@ -1,4 +1,4 @@
-import { Queue } from "./index";
+import Queue from "./index";
 
 test("creates a queue with one item", () => {
   const queue = new Queue();
