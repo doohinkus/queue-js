@@ -23,13 +23,13 @@ Import the package into your project.
 ## Use the Queue
 
 ```
-var {Queue} = require('queue-you-js');
+var Queue = require('queue-you-js');
 ```
 
 OR
 
 ```
-import { Queue } from 'queue-you-js';
+import Queue  from 'queue-you-js';
 ```
 
 ### To make a new, empty queue:
