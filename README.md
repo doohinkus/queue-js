@@ -23,8 +23,7 @@ Import the package into your project.
 ## Use the Queue
 
 ```
-var Queue = require("queue-you-js").Queue
-
+var Queue = require("queue-you-js")
 var queue = new Queue();
 queue.enqueue("hi");
 queue.getItems();
@@ -33,8 +32,7 @@ queue.getItems();
 OR
 
 ```
-import { Queue }  from 'queue-you-js';
-
+import Queue from 'queue-you-js';
 const queue = new Queue();
 queue.enqueue("hi");
 queue.getItems();
