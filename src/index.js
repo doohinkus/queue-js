@@ -6,9 +6,9 @@ export default class Queue {
     let end = 0;
     if (item instanceof Array) {
       end = item.length;
-      this.items.unshift(...item);
+      this.items.push(...item);
     } else {
-      this.items.unshift(item);
+      this.items.push(item);
     }
     return this.items.slice(0, end);
   }
@@ -17,6 +17,9 @@ export default class Queue {
       return this.items.shift();
     }
     return this.items;
+  }
+  peek() {
+    return this.items[0] || "queue is empty";
   }
   getItems() {
     return this.items;

@@ -37,6 +37,7 @@ test("gets multiple items from queue", () => {
   const fetchedItems = queue.getItems();
   expect(fetchedItems).toEqual(items);
 });
+
 test("gets single item from queue", () => {
   const queue = new Queue();
   queue.enqueue(0);
@@ -46,4 +47,21 @@ test("gets single item from queue", () => {
   expect(queue.getItems()).toEqual([]);
   queue.dequeue();
   expect(queue.getItems()).toEqual([]);
+});
+
+test("peeks item from queue", () => {
+  const queue = new Queue();
+  queue.enqueue("0");
+  expect(queue.peek()).toEqual("0");
+});
+
+test("adds items to END of the queue", () => {
+  const queue = new Queue();
+  queue.enqueue("0");
+  queue.enqueue([1, 2, 3]);
+  expect(queue.getItems()).toEqual(["0", 1, 2, 3]);
+  queue.enqueue(9);
+  expect(queue.getItems()).toEqual(["0", 1, 2, 3, 9]);
+  queue.dequeue();
+  expect(queue.getItems()).toEqual([1, 2, 3, 9]);
 });
