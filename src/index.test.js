@@ -37,6 +37,13 @@ test("gets multiple items from queue", () => {
   const fetchedItems = queue.getItems();
   expect(fetchedItems).toEqual(items);
 });
+test("removes FIRST item from queue", () => {
+  const queue = new Queue();
+  const items = [0, 1, 2, 3];
+  queue.enqueue(items);
+  queue.dequeue();
+  expect(queue.getItems()).toEqual([1, 2, 3]);
+});
 
 test("gets single item from queue", () => {
   const queue = new Queue();
