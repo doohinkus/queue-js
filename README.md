@@ -65,10 +65,10 @@ queue.peek();
 ### Dequeue item and get it's value:
 
 ```
-const lastItem = queue.dequeu();
+const firstItem = queue.dequeu();
 ```
 
-### Enqueue single item:
+### Enqueue single item (Code below returns array: ["item"]):
 
 ```
 queue.enqueue("item")
@@ -77,7 +77,7 @@ queue.enqueue("item")
 ### Enqueue multiple items:
 
 ```
-queue.enqueue(["item", "item"])
+queue.enqueue(["item1", "item2"])
 ```
 
 ### Get items in the queue
