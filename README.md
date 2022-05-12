@@ -56,6 +56,12 @@ const queue = new Queue(["item", "item", "more items"]);
 queue.dequeu();
 ```
 
+### Peek first item--returns first item without removing it:
+
+```
+queue.peek();
+```
+
 ### Dequeue item and get it's value:
 
 ```
